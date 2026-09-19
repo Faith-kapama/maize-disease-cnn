@@ -1,0 +1,117 @@
+{
+  "ui": {
+    "page_title": "Maize Crop Disease Detector",
+    "brand": "Maize AI",
+    "nav_upload": "📤  Upload",
+    "nav_results": "📊  Results",
+    "nav_help": "ℹ️  Help",
+    "upload_title": "Upload a Maize Leaf Image",
+    "upload_intro": "The AI will identify whether the leaf is healthy or affected by a fungal disease.",
+    "upload_label": "Maize leaf image",
+    "upload_hint": "📷 &nbsp; For best results use a <b>close-up, well-lit</b> image of a single maize leaf.<br>Supported formats: JPG, JPEG, PNG",
+    "no_upload": "⚠️ Please upload a maize leaf image first.",
+    "invalid_image": "❌ Invalid image. Please go back and upload a valid photo.",
+    "not_maize": "❌ Not recognized as a maize leaf. Please upload a clear, well-lit image of a maize leaf.",
+    "low_confidence": "⚠️ The model is not confident about this image ({confidence}). Please try a closer, well-lit photo of a single maize leaf.",
+    "uploaded_caption": "Uploaded leaf",
+    "result_label": "Detection Result",
+    "confidence": "Confidence",
+    "healthy_title": "🌿 Good Agronomic Practices",
+    "healthy_header": "Keep your crop healthy",
+    "tab_overview": "📖  Overview",
+    "tab_prevention": "🛡  Prevention",
+    "tab_treatment": "💊  Treatment",
+    "tab_resources": "📎  Resources",
+    "symptoms_header": "Symptoms",
+    "prevention_header": "Preventive measures",
+    "treatment_header": "Recommended actions",
+    "example_caption": "{label} example",
+    "no_example": "No example image available.",
+    "no_resources": "No additional resources available.",
+    "help_title": "Help & Instructions",
+    "help_body": "**How to use the app:**\n\n1. Go to **Upload** and select a JPG or PNG image of a maize leaf.\n2. The app will automatically analyse the image and switch to **Results**.\n3. If a disease is detected, explore the **Overview**, **Prevention**, and **Treatment** tabs.\n4. For healthy leaves, the app shows good agronomic practices to maintain crop health.\n\n---\n\n**Tips for accurate results:**\n- Use a close-up, well-lit photo of a single maize leaf.\n- Avoid blurry, dark, or heavily cropped images.\n- The model detects: **Blight**, **Common Rust**, **Gray Leaf Spot**, and **Healthy** leaves.\n- Images that don't resemble a maize leaf will be rejected."
+  },
+  "labels": {
+    "blight": "Blight",
+    "common_rust": "Common Rust",
+    "gray_leaf_spot": "Gray Leaf Spot",
+    "healthy": "Healthy"
+  },
+  "healthy_practices": [
+    "Maintain good agronomic practices and soil health.",
+    "Use crop rotation and plant disease-resistant varieties.",
+    "Monitor regularly for early signs of pests and disease.",
+    "Ensure balanced fertilization and avoid water stress.",
+    "Keep field edges and irrigation equipment clean."
+  ],
+  "diseases": {
+    "blight": {
+      "description": "Refers to several diseases causing large, elongated, cigar-shaped lesions on leaves. Northern Corn Leaf Blight (NCLB) is caused by Setosphaeria turcica and Southern Corn Leaf Blight (SCLB) by Bipolaris maydis. Symptoms worsen in cool, humid conditions.",
+      "symptoms": [
+        "Large, elongated tan or gray cigar-shaped lesions parallel to leaf veins.",
+        "Dusty gray appearance on lesions in moist conditions (fungal spores).",
+        "Wilting and seedling death in severe SCLB infections.",
+        "Severely infected plants lose all leaves, appearing gray and brittle."
+      ],
+      "prevention": [
+        "Select maize hybrids with high resistance or tolerance to blight.",
+        "Rotate crops to reduce fungal residue in the soil.",
+        "Till or manage crop residues that harbor the fungus.",
+        "Maintain proper plant spacing for airflow.",
+        "Avoid overhead irrigation."
+      ],
+      "treatment_steps": [
+        "Remove affected leaves carefully to reduce infection spread.",
+        "Apply recommended fungicides following label instructions.",
+        "Monitor the plant every 2–3 days for new lesions."
+      ],
+      "resources": "[FAO Blight Guide](http://www.fao.org)"
+    },
+    "common_rust": {
+      "description": "Common rust is caused by the fungus Puccinia sorghi, forming reddish-brown pustules that reduce photosynthesis. It thrives in cool, humid conditions and can be identified by initial chlorotic flecks followed by the eruption of powdery spores.",
+      "symptoms": [
+        "Numerous small (1–2 mm), circular to elongated golden-brown to brick-red powdery pustules.",
+        "Small yellow spots or flecks appearing before pustules become visible.",
+        "Tissue around pustules turns yellow or dies off.",
+        "Reduced photosynthesis and overall plant vigour."
+      ],
+      "prevention": [
+        "Plant commercially bred hybrid corn with resistance to common rust.",
+        "Regularly inspect lower and upper leaves for rust pustules.",
+        "Destroy infected crop residue by burning or burying.",
+        "Ensure proper spacing between plants.",
+        "Avoid excessive nitrogen fertilization."
+      ],
+      "treatment_steps": [
+        "Apply fungicides early when pustules first appear, following label instructions.",
+        "Remove and destroy heavily infected plants.",
+        "Monitor fields regularly to catch early re-infection."
+      ],
+      "resources": "[FAO Rust Guide](http://www.fao.org)"
+    },
+    "gray_leaf_spot": {
+      "description": "Gray Leaf Spot (GLS) is caused by Cercospora zeae-maydis or Cercospora zeina. It appears as rectangular tan-to-gray lesions parallel to leaf veins. The disease thrives in warm, humid conditions and overwinters in infected corn residue.",
+      "symptoms": [
+        "Small tan pinpoint spots with yellow halos that develop into narrow rectangular gray lesions.",
+        "Lesions delimited by leaf veins, growing up to 2 inches long.",
+        "Disease starts on lower leaves and spreads upward through the canopy.",
+        "Premature leaf drying and reduced photosynthetic area."
+      ],
+      "prevention": [
+        "Plant disease-tolerant or resistant corn hybrids.",
+        "Rotate maize with non-host crops for at least one year.",
+        "Till soil to incorporate and decompose corn residue.",
+        "Apply fungicides in high-pressure situations.",
+        "Avoid overhead irrigation to reduce leaf wetness.",
+        "Control weeds to improve air circulation.",
+        "Use balanced fertilization."
+      ],
+      "treatment_steps": [
+        "Apply recommended fungicides if lesions are actively spreading.",
+        "Destroy infected crop residues after harvest.",
+        "Maintain optimal plant density for adequate airflow."
+      ],
+      "resources": "[Gray Leaf Spot Info](http://www.fao.org)"
+    }
+  }
+}

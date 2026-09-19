@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "page_title": "Kigunduzi cha Magonjwa ya Mahindi",
+    "brand": "Mahindi AI",
+    "nav_upload": "📤  Pakia",
+    "nav_results": "📊  Matokeo",
+    "nav_help": "ℹ️  Msaada",
+    "upload_title": "Pakia Picha ya Jani la Mahindi",
+    "upload_intro": "AI itatambua kama jani ni zima au limeathiriwa na ugonjwa wa fangasi.",
+    "upload_label": "Picha ya jani la mahindi",
+    "upload_hint": "📷 &nbsp; Kwa matokeo bora tumia picha ya <b>karibu, yenye mwanga mzuri</b> ya jani moja la mahindi.<br>Aina zinazokubalika: JPG, JPEG, PNG",
+    "no_upload": "⚠️ Tafadhali pakia picha ya jani la mahindi kwanza.",
+    "invalid_image": "❌ Picha batili. Tafadhali rudi na upakie picha sahihi.",
+    "not_maize": "❌ Haikutambulika kama jani la mahindi. Tafadhali pakia picha safi, yenye mwanga mzuri ya jani la mahindi.",
+    "low_confidence": "⚠️ Mfumo hauna uhakika wa kutosha na picha hii ({confidence}). Tafadhali jaribu picha ya karibu, yenye mwanga mzuri ya jani moja la mahindi.",
+    "uploaded_caption": "Jani lililopakiwa",
+    "result_label": "Matokeo ya Utambuzi",
+    "confidence": "Uhakika",
+    "healthy_title": "🌿 Mbinu Bora za Kilimo",
+    "healthy_header": "Tunza mazao yako yawe na afya",
+    "tab_overview": "📖  Maelezo",
+    "tab_prevention": "🛡  Kuzuia",
+    "tab_treatment": "💊  Matibabu",
+    "tab_resources": "📎  Vyanzo",
+    "symptoms_header": "Dalili",
+    "prevention_header": "Hatua za kuzuia",
+    "treatment_header": "Hatua zinazopendekezwa",
+    "example_caption": "Mfano wa {label}",
+    "no_example": "Hakuna picha ya mfano inayopatikana.",
+    "no_resources": "Hakuna vyanzo vya ziada.",
+    "help_title": "Msaada & Maelekezo",
+    "help_body": "**Jinsi ya kutumia:**\n\n1. Nenda kwenye **Pakia** na uchague picha ya jani la mahindi (JPG au PNG).\n2. Mfumo utachambua picha na kukupeleka kwenye **Matokeo** moja kwa moja.\n3. Ugonjwa ukigunduliwa, pitia vichupo vya **Maelezo**, **Kuzuia** na **Matibabu**.\n4. Kwa majani yenye afya, mfumo unaonyesha mbinu bora za kilimo za kudumisha afya ya mazao.\n\n---\n\n**Ushauri kwa matokeo sahihi:**\n- Tumia picha ya karibu, yenye mwanga mzuri ya jani moja la mahindi.\n- Epuka picha zenye ukungu, giza, au zilizokatwa sana.\n- Mfumo unatambua: **Blight**, **Common Rust**, **Gray Leaf Spot**, na majani **Mazima**.\n- Picha zisizofanana na jani la mahindi zitakataliwa."
+  },
+  "labels": {
+    "blight": "Blight",
+    "common_rust": "Common Rust",
+    "gray_leaf_spot": "Gray Leaf Spot",
+    "healthy": "Zima"
+  },
+  "healthy_practices": [
+    "Tumia mbinu bora za kilimo na tunza afya ya udongo.",
+    "Fanya mzunguko wa mazao na panda mbegu zenye kinga dhidi ya magonjwa.",
+    "Kagua shamba mara kwa mara kwa dalili za mapema za wadudu na magonjwa.",
+    "Tumia mbolea kwa usawa na epuka mimea kukosa maji.",
+    "Weka mipaka ya shamba na vifaa vya umwagiliaji katika hali ya usafi."
+  ],
+  "diseases": {
+    "blight": {
+      "description": "Blight ni kundi la magonjwa yanayosababisha mabaka marefu, ya umbo la sigara kwenye majani. Northern Corn Leaf Blight (NCLB) husababishwa na fangasi Setosphaeria turcica, na Southern Corn Leaf Blight (SCLB) husababishwa na fangasi Bipolaris maydis. Dalili hutokea zaidi kwenye hali ya baridi au unyevunyevu.",
+      "symptoms": [
+        "Mabaka makubwa marefu, ya rangi ya kahawia au kijivu, sambamba na mishipa ya jani.",
+        "Katika hali ya unyevunyevu, mabaka yanaonekana na vumbi la kijivu kutokana na spores za fangasi.",
+        "Kunyauka mapema, hasa kwenye SCLB, na kuua miche.",
+        "Majani kuharibika na kuwa mepesi/kukauka."
+      ],
+      "prevention": [
+        "Tumia mbegu zenye kinga dhidi ya blight.",
+        "Fanya mzunguko wa mazao ili kupunguza mabaki ya fangasi.",
+        "Haribu mabaki ya mimea yaliyobeba fangasi.",
+        "Panda kwa nafasi nzuri kwa ajili ya mzunguko wa hewa.",
+        "Epuka umwagiliaji wa juu (sprinklers)."
+      ],
+      "treatment_steps": [
+        "Ondoa majani yaliyoathirika kwa uangalifu.",
+        "Tumia viuatilifu vya fangasi kwa kufuata maelekezo.",
+        "Kagua mimea kila baada ya siku 2–3."
+      ],
+      "resources": "[Mwongozo wa Blight FAO](http://www.fao.org)"
+    },
+    "common_rust": {
+      "description": "Common Rust husababishwa na fangasi Puccinia sorghi. Huunda mabaka madogo ya rangi ya kahawia hadi nyekundu-kahawia, yenye vumbi la spores. Hupunguza uwezo wa jani kufanya fotosinthesisi. Huenea zaidi katika hali ya baridi yenye unyevunyevu.",
+      "symptoms": [
+        "Mabaka madogo ya duara au marefu, yenye rangi ya kahawia hadi nyekundu, yenye vumbi.",
+        "Madoa madogo ya njano kabla ya mabaka kuonekana wazi.",
+        "Tishu za jani kugeuka njano au kufa.",
+        "Kupungua kwa fotosinthesisi."
+      ],
+      "prevention": [
+        "Tumia mbegu zenye kinga kibiashara.",
+        "Kagua majani mara kwa mara, hasa wakati hali inafaa kwa ugonjwa.",
+        "Haribu mabaki ya mimea iliyoathirika.",
+        "Panda kwa nafasi sahihi.",
+        "Epuka kutumia mbolea nyingi za nitrojeni."
+      ],
+      "treatment_steps": [
+        "Tumia viuatilifu vya fangasi mapema kabla ugonjwa haujaenea.",
+        "Ondoa mimea iliyoathirika sana.",
+        "Kagua shamba mara kwa mara."
+      ],
+      "resources": "[Mwongozo wa Rust FAO](http://www.fao.org)"
+    },
+    "gray_leaf_spot": {
+      "description": "Gray Leaf Spot (GLS) husababishwa na fangasi Cercospora. Huunda mabaka ya mraba, ya rangi ya kahawia hadi kijivu, sambamba na mishipa ya jani. Huenea zaidi kwenye hali ya joto na unyevunyevu na hubaki kwenye mabaki ya mahindi.",
+      "symptoms": [
+        "Mabaka madogo ya kahawia yenye duara la njano yanayoendelea kuwa marefu na ya mraba.",
+        "Mabaka hudhibitiwa na mishipa ya jani, na hukua hadi sentimita 5.",
+        "Ugonjwa huanza kwenye majani ya chini na kupanda juu.",
+        "Majani kukauka kabla ya wakati.",
+        "Kupungua kwa eneo la fotosinthesisi."
+      ],
+      "prevention": [
+        "Tumia mbegu zenye kinga dhidi ya GLS.",
+        "Fanya mzunguko wa mazao kwa angalau mwaka mmoja.",
+        "Haribu mabaki ya mahindi kwa kulima chini ya udongo.",
+        "Tumia viuatilifu vya fangasi pale inapohitajika.",
+        "Epuka umwagiliaji wa juu.",
+        "Dhibiti magugu ili kuboresha mzunguko wa hewa.",
+        "Tumia mbolea kwa usawa."
+      ],
+      "treatment_steps": [
+        "Tumia viuatilifu vya fangasi ikiwa mabaka yanaenea.",
+        "Haribu mabaki ya mimea baada ya mavuno.",
+        "Hakikisha mimea haijazidi msongamano."
+      ],
+      "resources": "[Taarifa za Gray Leaf Spot](http://www.fao.org)"
+    }
+  }
+}
