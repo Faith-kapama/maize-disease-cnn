@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+.stApp {
+    background-color: #0f1117;
+}
+
+/* Top nav buttons */
+div[data-testid="stHorizontalBlock"] button {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Result cards */
+.card-disease {
+    padding: 24px 28px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #1a0a00 0%, #2d1200 100%);
+    color: white;
+    border: 1.5px solid #E65100;
+    height: 100%;
+}
+.card-healthy {
+    padding: 24px 28px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #001a05 0%, #00290a 100%);
+    color: white;
+    border: 1.5px solid #2E7D32;
+    height: 100%;
+}
+.card-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    margin-bottom: 4px;
+}
+.card-value {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.card-confidence {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background: rgba(255,255,255,0.1);
+}
+
+/* Info list cards */
+.info-card {
+    padding: 13px 16px;
+    border-radius: 10px;
+    background-color: #1a237e;
+    border-left: 3px solid #5c6bc0;
+    margin-bottom: 10px;
+    color: #e8eaf6;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.info-card-green {
+    padding: 13px 16px;
+    border-radius: 10px;
+    background-color: #0a2e10;
+    border-left: 3px solid #2E7D32;
+    margin-bottom: 10px;
+    color: #c8e6c9;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.info-card-amber {
+    padding: 13px 16px;
+    border-radius: 10px;
+    background-color: #2d1200;
+    border-left: 3px solid #E65100;
+    margin-bottom: 10px;
+    color: #ffe0b2;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Upload drop zone feel */
+.upload-hint {
+    background: #161b27;
+    border: 1.5px dashed #2e3a50;
+    border-radius: 14px;
+    padding: 32px;
+    text-align: center;
+    color: #8899aa;
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+/* Section headers */
+.section-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #556;
+    margin-bottom: 12px;
+    margin-top: 4px;
+}
+
+/* Tabs tweak */
+button[data-baseweb="tab"] {
+    font-size: 14px !important;
+}
+
+h1, h2, h3 {
+    font-weight: 700 !important;
+    color: #f0f2f6;
+}
